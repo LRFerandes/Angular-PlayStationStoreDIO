@@ -1,0 +1,54 @@
+.card{
+    background-color: white;
+    width: 350px;
+	height: 500px;
+    overflow: hidden; 
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+    
+    
+    
+}
+
+.card > img{
+    transition: transform 0.5s ease; 
+}
+.card > img:hover{
+    transform: scale(1.05);
+}
+
+.card-label{
+    background-color: #0d0d0d;
+    position: relative;
+    width: 50%;
+    bottom:30%;
+    left: 50%;
+}
+.card-label > p{
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 12px;
+}
+.card-content{
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    position: relative;
+    height: 80px;
+    bottom: 25%;
+}
+
+p{
+    color: white;
+}
+.tittle{
+    margin: 10px;
+    padding-top: 10px;
+}
+.card-content-price{
+    display: flex;
+    justify-content: space-between;
+
+    margin: 10px;
+}

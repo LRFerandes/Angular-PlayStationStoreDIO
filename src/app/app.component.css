@@ -1,0 +1,11 @@
+.home-content{
+    height: 120px;
+    width: 90%;
+    margin: auto;
+    margin-top: 75px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+}
